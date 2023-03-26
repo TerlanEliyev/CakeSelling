@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poiret One";
+    font-weight: 100;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 200px;
+    background-color: #0a0b0c;
+}
+.call{
+    text-decoration: none;
+    color: yellow;
+}
+.call:hover{
+    background-color: orange;
+    color: white;
+    transition: .7s;
+
+}
+nav .icons{
+    width: 10%;
+    height: 50px;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+nav .icons i{
+    margin-left: 12px;
+    transition:.5s;
+}
+nav .icons i:hover{
+    color: yellow; 
+    transform: rotateY(180deg);
+    transition: all .3s ease-out;
+}
+nav .call{
+    border: 1px solid yellow;
+    padding: 15px 30px;
+    margin-right: 30px;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: #0a0b0c;
+    text-align: center;
+}
+.menu ul li{
+    display: inline;
+    color: white;
+    margin-right: 40px; 
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.picture{
+    background-image: url(https://preview.colorlib.com/theme/cakeshop/assets/img/hero/xh1_hero1.jpg.pagespeed.ic.k6lTpnWOqy.jpg);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    padding-top: 250px;
+}
+.picture h1{
+    width: 40%;
+    color: white;
+    margin-left: 100px;
+    font-size: 70px;
+    font-weight: 100;
+}
+.picture a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.picture a:hover{
+    background-color: black;
+    color: yellow;
+    transition: .5s;
+}
+.home{
+    width: 100%;
+    background-color: black;
+    padding-bottom: 80px;
+
+}
+.home .schilers{
+    margin: auto;
+    width: 30%;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.home hr{
+    width: 5%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: yellow;
+    border: none;
+}
+.textandpic{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-wrap:wrap;
+}   
+.home .texts{
+    width: 50%;
+    height: 100%;
+    color: white;
+    margin-left: 100px;
+}
+.home .texts h2{
+    color: yellow;
+}
+.home .texts p{
+    margin-top: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.minipicture img{
+    width: 90%;
+    margin-top: 20px;
+}
+.cake{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+.cake .images{
+    box-sizing: border-box;
+    display: flex;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+.cake .image{
+    width: 40%;
+    margin: 0px 20px;
+    position: relative;
+}
+.cake .image img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.cake .image img:hover{
+    transform: scale(1.1);
+}
+.ust{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    transition: .5s;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.image:hover .ust{
+    opacity: 1;
+}
+.image p{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.name{
+    color: white;
+}
+.price{
+    color: yellow;
+}
+.video{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.video div{
+    width: 80%;
+    height: 100%;
+    background-image: url(https://preview.colorlib.com/theme/cakeshop/assets/img/gallery/video-bg.jpg.webp);
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    align-items: center;
+} 
+.video a{ 
+    margin-left: 500px;
+    border-radius: 100%;
+    background-color: orange;
+    color: rgb(39, 24, 24);
+    text-decoration: none;
+}
+.video a i{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    border-radius: 100%;
+    padding: 30px 30px;
+}
+.video a:hover{
+    background-color: white;
+}
+.comments{
+    width: 100%;
+    height: 100vh;
+    background-color: black;    
+}
+.comment .c1{
+    border-left:0px;
+    border-right: 0px;
+    border-top: 1px solid gray;
+}
+.comment .c3{
+    border-left:0px;
+    border-right: 0px;
+    border-top: 1px solid gray;
+}
+.comment .c2{
+    border-top: 1px solid gray;
+}
+.comments h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.comments .comment{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    border-width: 30%;
+    padding-left: 30px;
+}
+.comments .comment div{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    margin: 0px 10px;
+    border-right: 1px solid grey;
+    
+}
+.comments .comment p{
+    text-align: center;
+}
+.comment ul {
+    margin-top: 20px;
+}
+.comment ul li{
+    display: inline;
+    color: yellow;
+}
+.comment p{
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    display: flex;
+}
